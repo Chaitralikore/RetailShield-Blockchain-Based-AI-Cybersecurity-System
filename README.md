@@ -1,4 +1,4 @@
-# RetailShield - AI-Powered Blockchain Cybersecurity
+# RetailShield: AI-Powered Blockchain Cybersecurity
 
 A cutting-edge cybersecurity dashboard that combines blockchain technology with artificial intelligence to provide comprehensive security monitoring for retail operations. Built with React, TypeScript, and Tailwind CSS.
 
