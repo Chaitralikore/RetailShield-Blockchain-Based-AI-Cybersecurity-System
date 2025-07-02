@@ -11,13 +11,9 @@ Visit the live application: [https://courageous-horse-442411.netlify.app](https:
 - [Overview](#overview)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 - [Security Features](#security-features)
-- [Components](#components)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Design System](#Design-System)
+
 
 ## 🔍 Overview
 
@@ -84,67 +80,6 @@ RetailShield is a comprehensive cybersecurity platform designed specifically for
 - **PostCSS** - CSS processing with Autoprefixer
 - **Vite Plugin React** - React support for Vite
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (version 16 or higher)
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd retailshield-dashboard
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:5173` to view the application
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint for code quality
-
-## 📁 Project Structure
-
-```
-src/
-├── components/           # React components
-│   ├── Header.tsx       # Main navigation header
-│   ├── Sidebar.tsx      # Navigation sidebar
-│   ├── Dashboard.tsx    # Main dashboard view
-│   ├── BlockchainMonitor.tsx    # Blockchain monitoring
-│   ├── AIThreatDetection.tsx    # AI threat analysis
-│   ├── SupplyChainTracker.tsx   # Supply chain tracking
-│   └── SecuritySettings.tsx     # Security configuration
-├── App.tsx              # Main application component
-├── main.tsx            # Application entry point
-├── index.css           # Global styles and Tailwind imports
-└── vite-env.d.ts       # Vite type definitions
-```
-
-### Component Architecture
-
-Each component follows a modular design pattern:
-- **Single Responsibility**: Each component handles one specific feature
-- **Type Safety**: Full TypeScript integration with proper interfaces
-- **Responsive Design**: Mobile-first approach with Tailwind breakpoints
-- **Accessibility**: Semantic HTML and proper ARIA attributes
-
 ## 🔒 Security Features
 
 ### Encryption Methods
@@ -191,85 +126,11 @@ Each component follows a modular design pattern:
 - **Glow Animations**: Subtle pulsing effects for active states
 - **Micro-interactions**: Hover states and smooth transitions
 
-## 🌐 Deployment
 
-### Netlify Deployment
 
-The application is automatically deployed to Netlify:
 
-1. **Build Command**: `npm run build`
-2. **Publish Directory**: `dist`
-3. **Node Version**: 18.x
 
-### Manual Deployment
-
-1. **Build the application**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy the `dist` folder** to your hosting provider
-
-### Environment Variables
-
-No environment variables are required for the current implementation. All data is mocked for demonstration purposes.
-
-## 🔧 Customization
-
-### Adding New Components
-
-1. Create a new component in `src/components/`
-2. Follow the existing TypeScript patterns
-3. Add proper interfaces for props
-4. Include responsive design with Tailwind classes
-5. Add the component to the sidebar navigation in `Sidebar.tsx`
-
-### Styling Guidelines
-
-- Use Tailwind utility classes for styling
-- Follow the established color palette
-- Maintain consistent spacing with the 8px system
-- Ensure responsive design across all breakpoints
-- Add hover states and transitions for interactivity
-
-### Data Integration
-
-To connect real data sources:
-
-1. Replace mock data with API calls
-2. Add proper error handling and loading states
-3. Implement data validation and sanitization
-4. Add authentication and authorization layers
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-
-- Follow TypeScript best practices
-- Maintain component modularity
-- Write descriptive commit messages
-- Test responsive design across devices
-- Ensure accessibility compliance
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Walmart** - Brand colors and design inspiration
-- **Lucide React** - Beautiful icon library
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Team** - Amazing frontend framework
-
----
 
 **Built with ❤️ for the future of retail cybersecurity**
 
-For questions or support, please open an issue in the repository.
+
