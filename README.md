@@ -4,7 +4,7 @@ A cutting-edge cybersecurity dashboard that combines blockchain technology with 
 
 ## 🚀 Live Demo
 
-Visit the live application: [https://courageous-horse-442411.netlify.app](https://courageous-horse-442411.netlify.app)
+Visit the live application: [https://courageous-horse-442411.netlify.app](https://dashing-chebakia-05f948.netlify.app/)
 
 ## 📋 Table of Contents
 
